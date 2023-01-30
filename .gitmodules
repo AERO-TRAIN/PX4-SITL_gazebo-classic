@@ -1,3 +1,3 @@
 [submodule "external/OpticalFlow"]
 	path = external/OpticalFlow
-	url = https://github.com/PX4/OpticalFlow.git
+	url = https://github.com/AERO-TRAIN/OpticalFlow.git

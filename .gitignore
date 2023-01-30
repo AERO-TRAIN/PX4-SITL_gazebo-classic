@@ -1,5 +1,20 @@
 Build/
 build/
+worlds/Cache/*
+worlds/CachedConfigurations/*
+worlds/CachedData/*
+worlds/CachedExtensions/*
+worlds/Code Cache/*
+worlds/Crashpad/*
+worlds/databases/*
+worlds/Dictionaries/*
+worlds/GPUCache/*
+worlds/Local Storage/*
+worlds/Session Storage/*
+worlds/Service Worker/*
+worlds/User/*
+worlds/WebStorage/*
+worlds/logs/*
 scripts/schemas
 .DS_Store
 *~
@@ -29,3 +44,13 @@ models/typhoon_h480/typhoon_h480.sdf
 models/depth_camera/depth_camera.sdf
 models/standard_vtol_drop/standard_vtol_drop.sdf
 models/tailsitter/tailsitter.sdf
+models/aerotrain/aerotrain.sdf
+
+*.lock
+Cookies
+Cookies-journal
+languagepacks.json
+machineid
+Network Persistent State
+Preferences
+TransportSecurity
