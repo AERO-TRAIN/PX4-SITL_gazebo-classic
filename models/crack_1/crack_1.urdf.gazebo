@@ -3,7 +3,9 @@
   <link name="crack_1">
     <visual>
     <geometry>
-      <mesh filename="/root/PX4-Autopilot/Tools/sitl_gazebo/models/crack_1/crack_1.dae" scale="0.3 0.3 0.3" />
+      <mesh scale="0.3 0.3 0.3">
+        <uri>model://crack_1/crack_1.dae</uri>
+      </mesh>
     </geometry>
     </visual>
     <inertial>
@@ -15,7 +17,9 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/root/PX4-Autopilot/Tools/sitl_gazebo/models/crack_1/crack_1.dae" scale="0.3 0.3 0.3" />
+        <mesh scale="0.3 0.3 0.3">
+          <uri>model://crack_1/crack_1.dae</uri>
+        </mesh>
       </geometry>
     </collision>
   </link>

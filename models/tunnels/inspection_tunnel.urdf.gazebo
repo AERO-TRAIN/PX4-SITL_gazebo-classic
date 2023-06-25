@@ -3,7 +3,9 @@
   <link name="inpection_tunnel_base_link">
     <visual>
     <geometry>
-      <mesh filename="/root/PX4-Autopilot/Tools/sitl_gazebo/models/tunnels/tunnel_rome_scaled.dae" scale="1 1 1" />
+      <mesh scale="1 1 1">
+        <uri>model://tunnels/tunnel_rome_scaled.dae</uri>
+      </mesh>
     </geometry>
     </visual>
     <inertial>
@@ -15,7 +17,9 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="/root/PX4-Autopilot/Tools/sitl_gazebo/models/tunnels/tunnel_rome_scaled.dae" scale="1 1 1" />
+        <mesh scale="1 1 1">
+          <uri>model://tunnels/tunnel_rome_scaled.dae</uri>
+        </mesh>
       </geometry>
     </collision>
   </link>
