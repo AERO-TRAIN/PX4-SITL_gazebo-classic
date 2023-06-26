@@ -3,9 +3,7 @@
   <link name="inspection_world_base_link">
     <visual>
     <geometry>
-      <mesh scale="1 1 1">
-        <uri>model://refinery/inspection_world.dae</uri>
-      </mesh>
+      <mesh filename="package://refinery/inspection_world.dae" scale="1 1 1" />
     </geometry>
     </visual>
     <inertial>
@@ -17,9 +15,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh scale="1 1 1">
-          <uri>model://refinery/inspection_world.dae</uri>
-        </mesh>
+        <mesh filename="package://refinery/inspection_world.dae" scale="1 1 1" />
       </geometry>
     </collision>
   </link>

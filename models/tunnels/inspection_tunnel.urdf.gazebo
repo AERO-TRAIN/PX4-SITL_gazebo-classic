@@ -3,9 +3,7 @@
   <link name="inpection_tunnel_base_link">
     <visual>
     <geometry>
-      <mesh scale="1 1 1">
-        <uri>model://tunnels/tunnel_rome_scaled.dae</uri>
-      </mesh>
+      <mesh filename="package://tunnels/tunnel_rome_scaled.dae" scale="1 1 1" />
     </geometry>
     </visual>
     <inertial>
@@ -17,9 +15,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh scale="1 1 1">
-          <uri>model://tunnels/tunnel_rome_scaled.dae</uri>
-        </mesh>
+        <mesh filename="package://tunnels/tunnel_rome_scaled.dae" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>

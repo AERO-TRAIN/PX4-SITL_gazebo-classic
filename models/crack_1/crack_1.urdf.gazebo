@@ -3,9 +3,7 @@
   <link name="crack_1">
     <visual>
     <geometry>
-      <mesh scale="0.3 0.3 0.3">
-        <uri>model://crack_1/crack_1.dae</uri>
-      </mesh>
+      <mesh filename="package://crack_1/crack_1.dae" scale="0.3 0.3 0.3"/>
     </geometry>
     </visual>
     <inertial>
@@ -17,9 +15,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh scale="0.3 0.3 0.3">
-          <uri>model://crack_1/crack_1.dae</uri>
-        </mesh>
+        <mesh filename="package://crack_1/crack_1.dae" scale="0.3 0.3 0.3"/>
       </geometry>
     </collision>
   </link>
