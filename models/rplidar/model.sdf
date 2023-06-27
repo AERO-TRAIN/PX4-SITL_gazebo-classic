@@ -22,6 +22,11 @@
             <size>0.02 0.05 0.05</size>
           </box>
         </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Red</name>
+          </script>
+        </material>
       </visual>
 
       <sensor name="laser" type="ray">
@@ -48,7 +53,7 @@
         <plugin name="laser" filename="libRayPlugin.so" />
         <plugin name="gazebo_ros_head_rplidar_controller" filename="libgazebo_ros_laser.so">
           <topicName>laser/scan</topicName>
-          <frameName>rplidar_link</frameName>
+          <frameName>lidar_link</frameName>
         </plugin>
         <always_on>1</always_on>
         <update_rate>10</update_rate>

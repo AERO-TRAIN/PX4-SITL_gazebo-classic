@@ -21,7 +21,7 @@
         </geometry>
         <material>
           <script>
-            <name>Gazebo/Black</name>
+            <name>Gazebo/Red</name>
           </script>
         </material>
       </visual>
@@ -47,8 +47,10 @@
             <stddev>0.02</stddev>
           </noise>
         </ray>
-        <plugin name="LaserPlugin" filename="libgazebo_lidar_plugin.so">
-          <robotNamespace></robotNamespace>
+        <plugin name="LaserPlugin" filename="libgazebo_ros_range.so">
+
+          <frameName>lidar_link</frameName>
+          <topicName>range_sensor/distance</topicName>
           <min_distance>0.2</min_distance>
           <max_distance>15.0</max_distance>
         </plugin>
